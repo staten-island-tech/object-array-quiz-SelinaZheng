@@ -34,7 +34,9 @@ const oneRepublican = presidents.filter(function(president){
 console.log(oneRepublican);
 
 //3) return only the last three presidents
-//const lastThree = ;
+//const lastThree = (function(10, 11, 12){
+ // return ;
+ //console.log(presidents.slice(10, 11, 12));
 //4) log all dems who served 2 terms. HINT use chain filter, filter and slice
 const twoDemocrat = democratic.filter ((president.terms) => {
   if(president.terms = 1 && president.terms !== 2){
